@@ -42,7 +42,7 @@ let passwordLength = userInput
  // prompts must pass if at least one character is being chosen
   if(includeLower === false && includeNumber === false && includeSymbol === false && includeUpper === false){
     window.alert("You must include at least one type of character")
-    return 
+    return "Try again"
   }
 
   if (includeLower === true) {
